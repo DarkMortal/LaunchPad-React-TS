@@ -1,0 +1,37 @@
+.imgContainer {
+  &.smallest {
+    width: 10%;
+  }
+  &.smaller {
+    width: 20%;
+  }
+  &.small {
+    width: 40%;
+  }
+  &.large {
+    width: 60%;
+  }
+  &.larger {
+    width: 80%;
+  }
+  &.largest {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 6px;
+    aspect-ratio: 16/9;
+
+    &.zoom {
+      transition: transform 0.3s ease; /* smooth zoom */
+      &:hover {
+        transform: scale(1.2); /* zoom by 20% */
+      }
+    }
+  }
+
+  border-radius: 6px;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+}

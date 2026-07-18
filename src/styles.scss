@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body,
+html {
+  font-family: "Noto Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  padding: 0px;
+  margin: 0px;
+  scrollbar-width: none !important;
+}
+
+:root {
+  --navbar-height: 60px;
+  --footer-height: 44px;
+}
+
+.cover-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+  height: calc(100vh - (var(--navbar-height) + var(--footer-height)));
+}

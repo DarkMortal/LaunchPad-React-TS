@@ -1,0 +1,94 @@
+$primaryColor: #007bff;
+$secondaryColor: #f58f00;
+$dangerColor: #ff0000;
+$successColor: #24a316;
+$hoverDarkenRatio: 6%;
+$disabledDarkRatio: 20%;
+
+button {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bolder;
+  color: whitesmoke;
+
+  &.w-full {
+    width: 100%;
+  }
+
+  &.small {
+    font-size: 1rem;
+  }
+
+  &.medium {
+    font-size: 1.5rem;
+  }
+
+  &.large {
+    font-size: 2rem;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.primary {
+    background-color: $primaryColor;
+
+    &:hover {
+      background-color: darken($primaryColor, $hoverDarkenRatio);
+    }
+  }
+
+  &.secondary {
+    background-color: $secondaryColor;
+
+    &:hover {
+      background-color: darken($secondaryColor, $hoverDarkenRatio);
+    }
+  }
+
+  &.danger {
+    background-color: $dangerColor;
+
+    &:hover {
+      background-color: darken($dangerColor, $hoverDarkenRatio);
+    }
+  }
+
+  &.success {
+    background-color: $successColor;
+
+    &:hover {
+      background-color: darken($successColor, $hoverDarkenRatio);
+    }
+  }
+
+  &.navBar {
+    background-color: transparent;
+
+    &:hover {
+      background-color: grey;
+    }
+  }
+}
+
+button:disabled {
+  color: darken(whitesmoke, $disabledDarkRatio);
+
+  &.primary {
+    background-color: darken($primaryColor, $disabledDarkRatio);
+  }
+  &.secondary {
+    background-color: darken($secondaryColor, $disabledDarkRatio);
+  }
+  &.success {
+    background-color: darken($successColor, $disabledDarkRatio);
+  }
+  &.danger {
+    background-color: darken($dangerColor, $disabledDarkRatio);
+  }
+  &:hover {
+    cursor: default !important;
+  }
+}

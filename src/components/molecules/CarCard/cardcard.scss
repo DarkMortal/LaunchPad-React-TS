@@ -1,0 +1,17 @@
+.carCard {
+  width: 300px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+
+  strong {
+    font-size: 1.25rem;
+  }
+
+  height: fit-content;
+}
+
+.fallBackImage {
+  height: 10rem !important;
+}

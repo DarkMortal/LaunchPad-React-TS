@@ -1,0 +1,18 @@
+.navbar {
+  top: 0px;
+  //margin-bottom: 15px;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.menuBar {
+  color: white;
+  align-self: center;
+  padding: 3px;
+
+  &:hover {
+    background-color: grey;
+  }
+}

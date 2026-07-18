@@ -1,0 +1,134 @@
+[
+  {
+    "carName": "Fortuner",
+    "location": "Chandigarh",
+    "year": 2021,
+    "fuelType": "Petrol",
+    "mileage": 26000,
+    "price": 8700000,
+    "id": "1",
+    "carImgUrl": "https://globalprimenews.com/wp-content/uploads/2019/11/Maruti-Suzuki-S-PRESSO-debuts-as-one-of-Indias-top-10-bestselling-cars-within-a-month-of-its-launch-3.jpg",
+    "checks": ["inspected", "insured"]
+  },
+  {
+    "carName": "Swift",
+    "location": "Delhi",
+    "year": 2019,
+    "fuelType": "Petrol",
+    "mileage": 39000,
+    "price": 520000,
+    "id": "2",
+    "carImgUrl": "https://cdn.cars24.com/prod/auto-news24-cms/Newsroom/2024/11/05/da156d13-df34-470a-9a78-397e8b117e8e-new-2025-maruti-suzuki-e-vitara-evx-front-design-black-suzuki.webp",
+    "checks": ["inspected", "warranty"]
+  },
+  {
+    "carName": "Baleno",
+    "location": "Mumbai",
+    "year": 2020,
+    "fuelType": "Petrol",
+    "mileage": 27000,
+    "price": 680000,
+    "id": "3",
+    "carImgUrl": "https://globalprimenews.com/wp-content/uploads/2019/11/Maruti-Suzuki-S-PRESSO-debuts-as-one-of-Indias-top-10-bestselling-cars-within-a-month-of-its-launch-3.jpg",
+    "checks": ["inspected", "insured"]
+  },
+  {
+    "carName": "Nexon",
+    "location": "Bangalore",
+    "year": 2018,
+    "fuelType": "Diesel",
+    "mileage": 54000,
+    "price": 820000,
+    "id": "4",
+    "carImgUrl": "https://cdn.cars24.com/prod/auto-news24-cms/Newsroom/2024/11/05/da156d13-df34-470a-9a78-397e8b117e8e-new-2025-maruti-suzuki-e-vitara-evx-front-design-black-suzuki.webp",
+    "checks": ["inspected", "warranty"]
+  },
+  {
+    "carName": "Tiago",
+    "location": "Pune",
+    "year": 2021,
+    "fuelType": "Petrol",
+    "mileage": 21000,
+    "price": 480000,
+    "id": "6",
+    "carImgUrl": "https://cdn.cars24.com/prod/auto-news24-cms/Newsroom/2024/11/05/da156d13-df34-470a-9a78-397e8b117e8e-new-2025-maruti-suzuki-e-vitara-evx-front-design-black-suzuki.webp",
+    "checks": ["inspected", "insured"]
+  },
+  {
+    "carName": "Creta",
+    "location": "Hyderabad",
+    "year": 2019,
+    "fuelType": "Diesel",
+    "mileage": 47000,
+    "price": 1100000,
+    "id": "7",
+    "carImgUrl": "https://globalprimenews.com/wp-content/uploads/2019/11/Maruti-Suzuki-S-PRESSO-debuts-as-one-of-Indias-top-10-bestselling-cars-within-a-month-of-its-launch-3.jpg",
+    "checks": ["insured", "warranty"]
+  },
+  {
+    "carName": "i20",
+    "location": "Ahmedabad",
+    "year": 2017,
+    "fuelType": "Petrol",
+    "mileage": 62000,
+    "price": 550000,
+    "id": "8",
+    "carImgUrl": "https://cdn.cars24.com/prod/auto-news24-cms/Newsroom/2024/11/05/da156d13-df34-470a-9a78-397e8b117e8e-new-2025-maruti-suzuki-e-vitara-evx-front-design-black-suzuki.webp",
+    "checks": ["inspected"]
+  },
+  {
+    "carName": "Wagon R",
+    "location": "Kolkata",
+    "year": 2022,
+    "fuelType": "Petrol",
+    "mileage": 12000,
+    "price": 530000,
+    "id": "5",
+    "carImgUrl": "https://globalprimenews.com/wp-content/uploads/2019/11/Maruti-Suzuki-S-PRESSO-debuts-as-one-of-Indias-top-10-bestselling-cars-within-a-month-of-its-launch-3.jpg",
+    "checks": ["inspected", "insured"]
+  },
+  {
+    "carName": "Brezza",
+    "location": "Jaipur",
+    "year": 2021,
+    "fuelType": "Petrol",
+    "mileage": 18000,
+    "price": 920000,
+    "id": "9",
+    "carImgUrl": "https://globalprimenews.com/wp-content/uploads/2019/11/Maruti-Suzuki-S-PRESSO-debuts-as-one-of-Indias-top-10-bestselling-cars-within-a-month-of-its-launch-3.jpg",
+    "checks": ["inspected", "insured"]
+  },
+  {
+    "carName": "Ertiga",
+    "location": "Lucknow",
+    "year": 2018,
+    "fuelType": "Petrol",
+    "mileage": 50000,
+    "price": 850000,
+    "id": "10",
+    "carImgUrl": "https://cdn.cars24.com/prod/auto-news24-cms/Newsroom/2024/11/05/da156d13-df34-470a-9a78-397e8b117e8e-new-2025-maruti-suzuki-e-vitara-evx-front-design-black-suzuki.webp",
+    "checks": ["inspected"]
+  },
+  {
+    "carName": "Scorpio",
+    "location": "Bhopal",
+    "year": 2017,
+    "fuelType": "Diesel",
+    "mileage": 75000,
+    "price": 1000000,
+    "id": "14",
+    "carImgUrl": "https://globalprimenews.com/wp-content/uploads/2019/11/Maruti-Suzuki-S-PRESSO-debuts-as-one-of-Indias-top-10-bestselling-cars-within-a-month-of-its-launch-3.jpg",
+    "checks": ["insured", "warranty"]
+  },
+  {
+    "carName": "Altroz",
+    "location": "Nagpur",
+    "year": 2022,
+    "fuelType": "Petrol",
+    "mileage": 10000,
+    "price": 700000,
+    "id": "13",
+    "carImgUrl": "https://cdn.cars24.com/prod/auto-news24-cms/Newsroom/2024/11/05/da156d13-df34-470a-9a78-397e8b117e8e-new-2025-maruti-suzuki-e-vitara-evx-front-design-black-suzuki.webp",
+    "checks": ["inspected", "insured"]
+  }
+]

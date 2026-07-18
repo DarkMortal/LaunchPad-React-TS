@@ -1,0 +1,25 @@
+.contact {
+  margin-left: 15px;
+  margin-right: 20px;
+  text-align: justify;
+}
+.feedback-form {
+  border-radius: 5px;
+  min-width: 300px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.contactGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two columns on larger screens */
+  gap: 1rem;
+}
+
+@media (max-width: 640px) {
+  .contactGrid {
+    grid-template-columns: 1fr; /* stack on small screens */
+  }
+  .details {
+    margin-top: 80px;
+  }
+}
