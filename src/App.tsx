@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import { BrowserRouter, Route, Routes } from "react-router";
 import "./styles.scss";
 import NavBar from "./components/organisms/Navbar/Navbar";
